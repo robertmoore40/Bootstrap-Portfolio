@@ -7,10 +7,64 @@
     <title>Document</title>
     <style></style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+
+
+    .container.fluid {
+        align: center;
+        text-wrap: center;
+        box-align: center;
+    }
+
+    h1 {
+        color: white;
+        background-color:#4aaaa5;
+        width:300px;
+        height:150px;
+        border-color: black;
+        border-width: 2px;
+        text-align: center;
+        vertical-align:middle;
+        padding: 45px;
+    }
+
+    img {
+        float: left;
+        padding: 5px;
+    }
+
+    .content1 {
+        width:960px;
+  height: 1000px;
+  border: 1px #dddddd;
+  text-align:center;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  border-radius: 1px;
+  border-color:gray;
+  overflow:auto;
+  position: relative;
+  top:40px;
+  overflow:hidden;
+    }
+
+.fixed-bottom {
+    background-color: #4aaaa5;
+    text-align: center;
+
+}
+    </style>
+
+
 </head>
 <body>
+    <!-- Navbar Setup -->
+    <nav class="navbar navbar-light" style="background-color: #4aaaa5;">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Robert Moore</a>
+                <a class="navbar-brand" href="#">
+                    <h2>Robert Moore</h2>
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -28,6 +82,41 @@
                   </ul>
                 </div>
               </nav>
-    
+            </nav>
+
+<!-- About Me -->
+<!-- Column Setup -->
+<!-- Container Data -->
+                    <div class="container-fluid">
+                            <div class="row">
+                              <div class="col-sm-8">
+                                    <div class="About-Me">
+                                            <strong>
+                                                About Me
+                                            </strong>    
+                                            </div>
+                                            <hr>
+                                            <br>
+                                            <p>
+        <div class = "content1">
+                                            <img src="assets/images/suited.jpg" alt="Rob in a suit"
+                                            style="widows: 225px;px;height:295px;"> 
+                                                Hi! My name is Robert Moore. I grew up in Chapel Hill, NC, and I presently live in RTP/Durham, NC. </p>
+                                        
+                                                <p>During high school I had an education focusing more on classic latin and history. While in school I excelled in chemistry and math, and ended up going to NC State University in Raleigh studying chemical engineering. 
+                                                    </p>
+                                                   <p> My career as of yet has spanned through polymer manufacturing and polymer research, as well as specialty materials R/D and QA. I'm excited to learn software to have a more full and rounded education with the capability to interact with computers in a meaningful way. 
+                                                    </p>
+                                                   <p> In my free time I enjoy bodybuilding, reading, cooking, and language learning. My best languages after English are Russian and Hungarian. I also like watching Canes hockey and No-limit Texas Hold'em.
+                                            </p>
+                                        </div>
+                                    </div>
+                              </div>
+                            </div>
+                          </div>
+                                              
+                  
+<!-- Sticky Bottom          -->
+<div class="fixed-bottom">Copyright 2019</div>
 </body>
 </html>
