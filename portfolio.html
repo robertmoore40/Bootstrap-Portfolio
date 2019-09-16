@@ -7,8 +7,142 @@
     <title>Document</title>
     <style></style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+
+.row {
+  height: 180px;
+  
+}
+
+.col-2 {
+  background-color: white;
+}
+
+img {
+  float: left;
+  padding: 5px;
+}
+
+
+.title{
+  background-color:#4aaaa5;
+  color:white;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 20px;
+
+}
+    .content1 {
+  border: 1px #dddddd;
+  text-align:center;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  border-radius: 1px;
+  border-color:gray;
+  overflow:auto;
+  position: relative;
+  top:40px;
+  overflow:hidden;
+    }
+
+.fixed-bottom {
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+.col-10 {
+    align: center;
+    text-align: center;
+    text-wrap:center;
+    background: white;
+    border: solid;
+    border-width: 1px;
+    padding: 50px;
+
+}
+
+.About-Me {
+    font-size:24px ;
+    color:#4aaaa5;
+    padding-left:80px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position:relative;
+    left:-357px;
+}
+
+body {
+  background-image: url("assets/images/interlaced.png");
+  background-repeat: repeat;
+}
+</style>
+
+
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+              1 of 6
+            </div>
+          <div class="col-2">
+              <div class="title">
+                  Robert Moore
+                  </div>
+          </div>
+          <div class="col-2">
+              3 of 6
+          </div>
+          <div class="col-2">
+                4 of 6
+          </div>
+          <div class="col-2">
+                  5 of 6
+          </div>
+          <div class="col-2">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-item nav-link" href="#">| About Me |</a>
+                      <a class="nav-item nav-link" href="#">Portfolio |</a>
+                      <a class="nav-item nav-link" href="#">Contact |</a>
+                    </div>
+                  </div>
+                </nav>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">
+          </div>
+          <div class="col-10">
+              <div class="content1">
+                  <div class="About-Me">
+                  <strong>
+                      About Me
+                  </strong>    
+                  </div>
+                  <hr>
+                  <br>
+                  <p>
+                  <img src="assets/images/suited.jpg" alt="Rob in a suit"
+                  style="widows: 225px;px;height:295px;"> 
+                      Hi! My name is Robert Moore. I grew up in Chapel Hill, NC, and I presently live in RTP/Durham, NC. </p>
+              
+                      <p>During high school I had an education focusing more on classic latin and history. While in school I excelled in chemistry and math, and ended up going to NC State University in Raleigh studying chemical engineering. 
+                          </p>
+                         <p> My career as of yet has spanned through polymer manufacturing and polymer research, as well as specialty materials R/D and QA. I'm excited to learn software to have a more full and rounded education with the capability to interact with computers in a meaningful way. 
+                          </p>
+                         <p> In my free time I enjoy bodybuilding, reading, cooking, and language learning. My best languages after English are Russian and Hungarian. I also like watching Canes hockey and No-limit Texas Hold'em.
+                  </p>
+              </div>
+          </div>
+          <div class="col-1">
+          </div>
+        </div>
+      </div>
+<!-- Sticky Bottom          -->
+<div class="fixed-bottom">Copyright 2019</div>
 </body>
 </html>
