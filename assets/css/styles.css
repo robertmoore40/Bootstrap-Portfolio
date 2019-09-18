@@ -1,0 +1,200 @@
+
+.container {
+    width:100%;
+  }
+  .nav {
+    margin-top:125px;
+    width:90%;
+  }
+  
+  .nav-link{
+    color:black;
+    font-size: 1.5vw;
+  }
+  
+  
+  .remove-all-margin{
+  margin:0 ! important;
+  }
+  
+  .row {
+    height: 180px;
+    
+  }
+  
+  .col-2 {
+    background-color: white;
+  }
+  
+  .col-sm-12{
+    margin:0;
+    padding-right:0px;
+
+  }
+  
+  .col-6 {
+    background-color:white;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color:black;
+    height:180px;
+    margin-right:0px;
+  }
+  
+  .col-4 {
+    background-color: white;
+  }
+  
+  img {
+    float: left;
+    padding: 5px;
+  }
+  
+  
+  .content1 {
+    border: 1px #dddddd;
+    text-align:center;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    border-radius: 1px;
+    border-color:gray;
+    position: relative;
+    margin-right: -2%;
+    overflow:auto;
+    top:2px;
+      }
+  
+  .fixed-bottom {
+      background-color: #4aaaa5;
+      text-align: center;
+  }
+  
+  
+  
+  
+  .About-Me {
+      font-size:24px ;
+      color:#4aaaa5;
+      font-family: 'Georgia', Times, Times New Roman, serif;
+      position: relative;
+      right:32%;
+      
+  }
+  
+  body {
+    background-image: url("../images/interlaced.png");
+    background-repeat: repeat;
+  }
+  
+  .myname {
+    color:white;
+    background-color:#4aaaa5;
+    width:38%;
+    height: 90px;
+    width: 60%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    font-weight:bold;
+    align-content: center;
+    vertical-align:middle;
+    margin-top: 90px;
+    text-align: center;
+    vertical-align: middle;
+    position:absolute;
+    padding:10px;
+  }
+  
+  .myname-text{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    display:inline-block;
+    padding:10px;
+  }
+
+  .form-1 {
+    margin: auto;
+    padding-right: 10%;
+    position:relative;
+    left: 50px;
+    bottom: 20px;
+  }
+
+  #c-name  {
+    width:90%;
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
+  }
+
+  #c-subject {
+    width:90%;
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
+  }
+  
+  #c-email {
+    width: 90%;
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
+  }
+
+
+  .PAL {
+    background-color: #4aaaa5;
+    color: white;
+    z-index: 20;
+    width: 260px;
+    position: absolute;
+    height: 2em;
+    left: 15px;
+    top: 206px;
+    }
+
+  
+    .PBL {
+      background-color: #4aaaa5;
+      color: white;
+      z-index: 20;
+      width: 260px;
+      position: absolute;
+      height: 2em;
+      left: 285px;
+      top: 207px;
+  
+      }
+      .PCL {
+        background-color: #4aaaa5;
+        color: white;
+        z-index: 20;
+        width: 260px;
+        position: absolute;
+        height: 2em;
+        left: 555px;
+        top: 207px;
+        
+        }
+        .PDL {
+          background-color: #4aaaa5;
+          color: white;
+          z-index: 20;
+          width: 260px;
+          position: absolute;
+          height: 2em;
+          left: 15px;
+          top: 368px;
+          }
+          .PEL {
+            background-color: #4aaaa5;
+            color: white;
+            z-index: 20;
+            width: 260px;
+            position: absolute;
+            height: 2em;
+            left: 825px;
+            top: 207px;
+            }
+  
