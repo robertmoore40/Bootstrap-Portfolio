@@ -13,6 +13,10 @@
   width:100%;
 }
 
+.nav {
+  margin-top:135px;
+}
+
 .remove-all-margin{
 margin:0 ! important;
 }
@@ -30,8 +34,11 @@ margin:0 ! important;
   margin:0;
 }
 
-.col-12 {
+.col-6 {
   background-color:white;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color:black;
 }
 
 .col-4 {
@@ -44,7 +51,7 @@ img {
 }
 
 
-    .content1 {
+.content1 {
   border: 1px #dddddd;
   text-align:center;
   margin: auto;
@@ -52,9 +59,10 @@ img {
   padding: 10px;
   border-radius: 1px;
   border-color:gray;
-  overflow:auto;
   position: relative;
-  overflow:hidden;
+  margin-right: -2%;
+  top:17px;
+  overflow:auto;
     }
 
 .fixed-bottom {
@@ -78,6 +86,23 @@ body {
   background-repeat: repeat;
 }
 
+.myname {
+  color:white;
+  background-color:#4aaaa5;
+  width:38%;
+  height: 90px;
+  width: 260px;
+  font-size: 24px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight:bold;
+  align-content: center;
+  vertical-align:middle;
+  margin-top: 90px;
+  text-align: center;
+}
 
 
 </style>
@@ -87,21 +112,33 @@ body {
 <body>
     <div class="container-fluid">
         <div class="row">
-          <div class="col-12">
+        
+          <div class="col-6">
+            <ul style="list-style: none;">
+              <li class="nav-item">
+                <div class = "myname">
+                  <a class="nav-link disabled">
+                    Robert Moore
+                  </a>
+                </div>
+                </li>
+              </ul>
+            </div>
+          <div class="col-6">
               <ul class="nav bg-white justify-content-end">
-                  <li class="nav-item">
-                    <a class="nav-link disabled"> Robert Moore</a>
-                  </li>
+                 
                   <li class="nav-item">
                     <a class="nav-link" href="index.html">| About Me |</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio     |</a>
+                    <a class="nav-link" href="portfolio.html">Portfolio   |</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact |</a>
                   </li>
                 </ul>
+              </div>
+        
           </div>
         </div>
         <div class="row">
